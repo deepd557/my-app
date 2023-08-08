@@ -18,7 +18,7 @@ let [rideDuration, setRideDuration] = useState(0);
       }); //templent litteeral
   }, [PickupCoordinates, DropoffCoordinates]);
   return (
-    <Wrapper>
+    <Wrapper> 
       <Titel>chose a ride or sipe up for more</Titel>
 
       <CarList>
